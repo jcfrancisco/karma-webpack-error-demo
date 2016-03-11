@@ -6,13 +6,15 @@ module.exports = function(config) {
     captureTimeout: 60000,
     colors: true,
     frameworks: ['mocha'],
-    files: ['example_spec.js'],
+    files: ['spec/*.js'],
     logLevel: config.LOG_DEBUG,
     port: 9876,
     preprocessors: {
-      'example_spec.js': ['webpack']
+      'spec/*.js': ['webpack']
     },
     webpack: {},
-    webpackMiddleware: {}
+    webpackMiddleware: {
+      noInfo: true
+    }
   });
 }
