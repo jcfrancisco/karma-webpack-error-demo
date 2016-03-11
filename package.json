@@ -1,0 +1,19 @@
+{
+  "name": "karma-webpack-error-demo",
+  "version": "1.0.0",
+  "description": "Small demonstration of karma-webpack issue where webpack bundle errors are not bubbled up to the console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-mocha": "^0.2.2",
+    "karma-webpack": "^1.7.0",
+    "mocha": "^2.4.5",
+    "webpack": "^1.12.14"
+  }
+}
