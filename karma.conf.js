@@ -13,8 +13,6 @@ module.exports = function(config) {
       'spec/*.js': ['webpack']
     },
     webpack: {},
-    webpackMiddleware: {
-      noInfo: true
-    }
+    webpackMiddleware: {}
   });
 }
